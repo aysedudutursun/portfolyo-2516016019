@@ -53,7 +53,7 @@ function guvenliJson(veri) {
 
 export async function GET() {
   const bulgular = await bulgulariGetir();
-  const v = '3'; // stil/js dosyalarını değiştirdiğinizde bu sayıyı artırın (tarayıcı önbelleği için)
+  const v = '4'; // stil/js dosyalarını değiştirdiğinizde bu sayıyı artırın (tarayıcı önbelleği için)
 
   const html = `<!DOCTYPE html>
 <html lang="tr">

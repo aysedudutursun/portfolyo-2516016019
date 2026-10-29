@@ -84,6 +84,9 @@
       var cards = S.projects.map(function (p) {
         var kids = [h("h3", "", [p.title]), h("p", "", [p.text]), tags(p.tags)];
         if (p.link) kids.push(h("a", "lk", ["GitHub"], { href: p.link, target: "_blank", rel: "noopener" }));
+        (p.links || []).forEach(function (l) {
+          kids.push(h("a", "lk", [l.label], { href: l.href, target: "_blank", rel: "noopener" }));
+        });
         return h("div", "card sr", kids);
       });
       projGrid = h("div", "grid stag", cards);

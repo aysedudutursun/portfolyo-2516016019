@@ -171,6 +171,17 @@ window.SITE = {
   /* ---------- Projeler ---------- */
   projects: [
     {
+      title: { tr: "Okuma Pusulası — Kitap Eğilim Panosu", en: "Reading Compass — Book Trend Dashboard", es: "Brújula de Lectura — Panel de tendencias de libros", de: "Lesekompass — Buchtrend-Dashboard", ar: "بوصلة القراءة — لوحة اتجاهات الكتب" },
+      text:  { tr: "Open Library trend verisini GitHub Actions ile otomatik çekip zaman serisi biriktiren, konu ve yayın yılına göre süzülebilen, sparkline'lı erişilebilir karar panosu (kurgusal kütüphane müşterisi).", en: "An accessible decision dashboard that automatically collects Open Library trending data with GitHub Actions, builds a time series and filters by subject and publication year, with inline sparklines (fictional library client).", es: "Panel de decisión accesible que recoge automáticamente datos de tendencias de Open Library con GitHub Actions y filtra por tema y año de publicación (cliente ficticio).", de: "Barrierearmes Entscheidungs-Dashboard, das Open-Library-Trenddaten per GitHub Actions automatisch sammelt und nach Thema und Erscheinungsjahr filtert (fiktiver Bibliothekskunde).", ar: "لوحة قرار سهلة الوصول تجمع بيانات الاتجاهات من Open Library تلقائيًا عبر GitHub Actions وتُصفّى حسب الموضوع وسنة النشر (عميل خيالي)." },
+      tags: ["JavaScript", "Chart.js", "GitHub Actions", "PWA"],
+      repo: "kitap-egilim-panosu",
+      links: [
+        { label: { tr: "Canlı ürün", en: "Live app", es: "App en vivo", de: "Live-App", ar: "التطبيق المباشر" }, href: "https://aysedudutursun.github.io/kitap-egilim-panosu/" },
+        { label: { tr: "Vaka çalışması", en: "Case study", es: "Caso de estudio", de: "Fallstudie", ar: "دراسة الحالة" }, href: "https://aysedudutursun.github.io/kitap-egilim-panosu/vaka-calismasi.html" },
+        { label: "GitHub", href: "https://github.com/aysedudutursun/kitap-egilim-panosu" }
+      ]
+    },
+    {
       title: { tr: "Ev Fiyatı Tahmini", en: "House Price Prediction", es: "Predicción de precios de vivienda", de: "Immobilienpreis-Prognose", ar: "التنبؤ بأسعار المنازل" },
       text:  { tr: "Kaggle verisiyle birden fazla regresyon modelini karşılaştırıp en iyisini seçtim.", en: "Compared several regression models on Kaggle data and picked the best one.", es: "Comparé varios modelos de regresión con datos de Kaggle y elegí el mejor.", de: "Mehrere Regressionsmodelle auf Kaggle-Daten verglichen und das beste gewählt.", ar: "قارنتُ عدة نماذج انحدار على بيانات Kaggle واخترتُ أفضلها." },
       tags: ["Python", "Jupyter"]
