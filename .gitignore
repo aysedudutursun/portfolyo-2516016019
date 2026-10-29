@@ -1,0 +1,12 @@
+   # Bağımlılıklar ve derleme çıktıları
+   node_modules/
+   .next/
+   out/
+
+   # GİZLİ: veritabanı adresi (DATABASE_URL) burada durur, GitHub'a GİTMEMELİ
+   .env*
+   !.env.example
+
+   .vercel
+   .DS_Store
+   *.log
